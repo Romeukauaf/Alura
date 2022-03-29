@@ -1,0 +1,267 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+     }
+
+header{background-color: gray;
+    width: 100%;
+    padding: 20px 0 ;
+    }
+
+
+    .banner{
+        width: 100%;
+    }
+    
+
+.cabecalho{
+    position: relative;
+     width: 945px;
+     margin: 0 auto;}
+
+nav{
+    position: absolute;;
+    top: 110px;
+    right: 30px;}
+
+nav li{display:inline-block;
+    margin:  0 0 0 15px;}
+    
+ nav a {
+     text-transform: uppercase;
+     color: black;
+     font-weight: bolder;
+     font-size: 22px;
+     text-decoration: none;
+      display:inline-block}
+
+      nav a:hover{
+          color: purple;
+           text-decoration: underline; }
+            
+
+
+#banner{
+width: 100%;
+margin: 0 auto;
+padding: 10px 0;}
+
+
+    .principal{
+        width: 940px;
+        margin: 0 auto;
+    text-align: center;
+    padding: 3em 0;
+    background-color:#888888,#ffffff}
+
+  .titulop:first-letter {
+      font-size: bold;}
+  
+
+
+    h2{ font-weight: bolder;
+        padding:1em; }
+
+    .utensilios{
+        width: 140px;
+        float: left;
+        margin: 0 20px 0 20px;
+    }
+   
+    
+    
+    .principal p:not(#missao) {
+     background-color: yellow;   
+    }
+
+    
+
+    .titulop{ 
+        clear: left;
+        text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    }
+
+    
+
+    p {text-align: center;}
+
+
+    em strong{
+        color: brown;}
+
+
+     #missao{
+            font-size: 20px;}
+        
+
+    .principal p {
+        text-align: center;
+        margin: 0 0  1em;
+        margin-left: 20px;
+    }
+    
+
+    .principal strong{
+        text-align: center;
+        font-weight: bold;
+    }
+    
+
+    .principal em{
+        text-align: center;
+    font-style: italic;
+    }
+
+
+    .principal :hover{
+    }
+
+
+ /*css da pag principal*/
+
+    .mapa{
+        margin-bottom: -11px;
+        padding: 3em 0;
+       background:radial-gradient(#ffffff, #888888 )
+    }
+
+    .itens::before{
+        content: "★"
+    }
+
+    .mapa-conteudo{
+        width: 940px;
+        padding: 0 auto;
+        padding-left: 230px;
+    }   
+
+
+    .titulo-meio{clear: left;
+        font-size: 20px;
+        text-align: center;
+        padding:2em 0;
+    }
+
+
+h3{
+    font-weight: bold;
+    padding: 10px;
+}
+
+.mapa p{
+    margin:0 0 2em;
+    text-align: center;
+    font-size: 1.2em;
+   }
+   
+
+   .beneficios{
+    margin: 10px auto;
+    background-color: #888888;
+    text-align: center;
+    
+}
+
+.benetitulo{
+    padding:25px 3em;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.conteudo-bene{
+    width: 940px;   
+    height: 183.1;
+    margin: 0 auto;
+    padding:90px;
+
+   }
+
+   .lista-bene{
+    width: 60%;
+    vertical-align: top;
+    display: inline-block
+    }
+
+    ul.lista-bene{
+        
+        width: 30%
+    }
+
+.itens{line-height: 1.7;    
+    color: #000000;
+    font-size: 21px;
+    font-style: italic;
+    }
+
+.itens li{
+    margin-top: -16px;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+    .fotobene{
+        opacity: 1;
+        box-shadow:10px 10px 10px 5px black;
+        width:40% 
+        
+              
+    }
+
+    .fotobene:hover{
+        opacity: 0.7;
+        transition: 500ms;
+    }
+
+    .videoo{
+        width: 940px;
+        padding-left: 200px
+    }
+
+    .videp{ width: 100%;
+        margin: 1em auto; 
+        }
+
+
+
+/*fotter*/
+
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+    padding:40px 0;
+    margin-top: -10px;}
+
+    .copyrigth {margin: 10px;
+        color:white;
+        font-size: 15px;}
+
+        @media screen and (max-width:480px) {
+            .cabecalho,.principal,.conteudo-bene,.mapa-conteudo,.videoo,.videp {
+              width: auto;
+            }
+
+
+            h1{
+                text-align: center;
+            }
+
+            nav{
+                position: static;
+            }
+
+
+            .lista-bene,.fotobene{
+                width: 100%;
+            }
+
+           
+        }
+
+
+
+        
+            
